@@ -32,7 +32,7 @@ for(const data of jsonTestData){
 
         }else{
             const errorMessage=await loginPage.getLoginErrorMessage();
-            expect(errorMessage).toBe("Warning: No match for E-Mail address and/or Password.")
+            expect(errorMessage).toBe("Warning: No match for E-Mail Address and/or Password.")
         }
 
     })
