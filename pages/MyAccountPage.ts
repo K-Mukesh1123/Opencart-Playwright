@@ -17,7 +17,7 @@ export class MyAccountPage{
 
         //initilaise locators
         this.msgHeading=page.locator('h2:has-text("My Account")');
-        this.btnLogout=page.locator("text='Logout").nth(1);
+        this.btnLogout=page.getByText('Logout').nth(1);
             
     }
 
