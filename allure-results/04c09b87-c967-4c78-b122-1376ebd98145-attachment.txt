@@ -1,0 +1,6 @@
+Unable to click logout link: Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('text=\'Logout >> nth=1')
+    - waiting for" https://tutorialsninja.com/demo/index.php?route=account/logout" navigation to finish...
+    - navigated to "https://tutorialsninja.com/demo/index.php?route=account/logout"
+

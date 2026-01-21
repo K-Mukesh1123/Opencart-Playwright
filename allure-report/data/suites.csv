@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","17056","Login Test with JSON Data: Invalid login","chromium","Mon Jan 19 20:39:35 IST 2026","passed","Mon Jan 19 20:39:52 IST 2026","","LoginDataDriven.spec.ts","",""
+"","2338","User Login test @master @sanity @regression","chromium","Mon Jan 19 21:46:27 IST 2026","passed","Mon Jan 19 21:46:30 IST 2026","","LoginTest.spec.ts","",""
+"","11330","Login Test with JSON Data: Valid login","chromium","Mon Jan 19 20:39:23 IST 2026","passed","Mon Jan 19 20:39:35 IST 2026","","LoginDataDriven.spec.ts","",""
+"","30153","User logout test @master @regression","chromium","Mon Jan 19 21:36:21 IST 2026","broken","Mon Jan 19 21:36:51 IST 2026","","Logout.spec.ts","",""
+"","6024","User registration test @master @sanity @regression","chromium","Mon Jan 19 21:46:21 IST 2026","passed","Mon Jan 19 21:46:27 IST 2026","","AccountRegistration.spec.ts","",""

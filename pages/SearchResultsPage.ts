@@ -3,18 +3,25 @@ import { ProductPage } from './ProductPage'; // Import ProductPage if needed
 
 export class SearchResultsPage {
     private readonly page: Page;
-    
+
     // Locators using CSS selectors
     private readonly searchPageHeader: Locator;
     private readonly searchProducts: Locator;
+    private readonly comapreProductBtn: Locator;
+    private readonly compareMsg: Locator;
+    private readonly productComparsionLink: Locator;
 
     constructor(page: Page) {
         this.page = page;
-        
+
         // Initialize locators with CSS selectors
         this.searchPageHeader = page.locator('#content h1');
         this.searchProducts = page.locator('h4>a');
-        
+        this.comapreProductBtn = page.locator("button[data-original-title='Compare this Product']");
+        this.compareMsg = page.getByText('Success:')
+        this.productComparsionLink = page.getByRole('link', { name: 'product comparison' });
+
+
     }
 
     /**
@@ -40,8 +47,8 @@ export class SearchResultsPage {
             const count = await this.searchProducts.count();
             for (let i = 0; i < count; i++) {
                 const product = this.searchProducts.nth(i);
-                 const title = await product.textContent();
-                 if (title === productName) {
+                const title = await product.textContent();
+                if (title === productName) {
                     return true;
                 }
             }
@@ -56,23 +63,20 @@ export class SearchResultsPage {
      * @param productName - The name of the product to select
      * @returns Promise<ProductPage> - ProductPage instance after selecting the product
      */
-    async selectProduct(productName: string): Promise<ProductPage | null> {
-        try {
-            const count = await this.searchProducts.count();
-            for (let i = 0; i < count; i++) {
-                const product = this.searchProducts.nth(i);
-                const title = await product.textContent();
-                if (title === productName) {
-                    await product.click();
-                    return new ProductPage(this.page);
-                }
+    async selectProduct(productName: string): Promise<ProductPage> {
+        const count = await this.searchProducts.count();
+
+        for (let i = 0; i < count; i++) {
+            const product = this.searchProducts.nth(i);
+            if ((await product.textContent()) === productName) {
+                await product.click();
+                return new ProductPage(this.page);
             }
-            console.log(`Product not found: ${productName}`);
-        } catch (error) {
-            console.log(`Error selecting product: ${error}`);
         }
-        return null;
+
+        throw new Error(`Product not found: ${productName}`);
     }
+
 
     /**
      * Get count of products in search results
@@ -81,4 +85,8 @@ export class SearchResultsPage {
     async getProductCount(): Promise<number> {
         return await this.searchProducts.count();
     }
+
+
+
+
 }

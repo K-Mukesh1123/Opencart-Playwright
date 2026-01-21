@@ -1,0 +1,8 @@
+Exception occured while entering the product: Error: locator.fill: value: expected string, got undefined
+Exception occured whle clicking 'Search': Error: locator.click: Test ended.
+Call log:
+  - waiting for locator('#search button[type=\'button\']')
+    - locator resolved to <button type="button" class="btn btn-default btn-lg">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+

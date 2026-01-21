@@ -1,25 +1,32 @@
 import { Page, Locator, expect } from '@playwright/test';
 import { ShoppingCartPage } from './ShoppingCartPage'; // Import ShoppingCartPage if needed
+import { ProductComparison } from './ProductComparisonPage'
 
 export class ProductPage {
     private readonly page: Page;
-    
+
     // Locators using CSS selectors
     private readonly txtQuantity: Locator;
     private readonly btnAddToCart: Locator;
     private readonly cnfMsg: Locator;
     private readonly btnItems: Locator;
     private readonly lnkViewCart: Locator;
+    private readonly compareProductBtn: Locator;
+    private readonly compareMsg: Locator;
+    private readonly productComparsionLink: Locator;
 
     constructor(page: Page) {
         this.page = page;
-        
+
         // Initialize locators with CSS selectors
         this.txtQuantity = page.locator('input[name="quantity"]');
         this.btnAddToCart = page.locator('#button-cart');
         this.cnfMsg = page.locator('.alert.alert-success.alert-dismissible');
         this.btnItems = page.locator('#cart');
         this.lnkViewCart = page.locator('strong:has-text("View Cart")');
+        this.compareProductBtn = page.locator("button[data-original-title='Compare this Product']").nth(0);
+        this.compareMsg = page.getByText('Success:')
+        this.productComparsionLink = page.getByRole('link', { name: 'product comparison' });
     }
 
     /**
@@ -44,13 +51,13 @@ export class ProductPage {
      */
     async isConfirmationMessageVisible(): Promise<boolean> {
         try {
-            if(this.cnfMsg!=null){
-                 return true;
+            if (this.cnfMsg != null) {
+                return true;
             }
-            else{
+            else {
                 return false;
             }//await expect(this.cnfMsg).toBeVisible();
-           
+
         } catch (error) {
             console.log(`Confirmation message not found: ${error}`);
             return false;
@@ -82,4 +89,41 @@ export class ProductPage {
         await this.addToCart();
         await this.isConfirmationMessageVisible();
     }
+
+
+    /**
+     * Clicks on Compare Product button and verifies the Sucess message with product comparision link
+     * @return Promise<void> - 
+     */
+
+    async compareProductInProductScreen(): Promise<string> {
+        await this.compareProductBtn.click();
+        await this.productComparsionLink.isVisible();
+        return await this.compareMsg.innerText();
+    }
+
+    async hoverOnCompareProduct(): Promise<void> {
+        await this.compareProductBtn.waitFor({ state: 'visible' });
+        await this.compareProductBtn.hover();
+    }
+
+
+    async clickProductComparisonFromSuccessMsg(): Promise<ProductComparison> {
+        try {
+            await Promise.all([
+                this.page.waitForURL("**route=product/compare**"),
+                this.productComparsionLink.click(),
+            ]);
+
+            return new ProductComparison(this.page);
+        } catch (error) {
+            console.log(
+                `Exception occurred while clicking 'product comparison' link: ${error}`
+            );
+            throw error; // rethrow to fail the test
+        }
+
+    }
+
+
 }

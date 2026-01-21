@@ -1,0 +1,5 @@
+[ { testName: 'Search the Product', product: 'iMac' } ]
+Exception occurred while clicking 'product comparison' link: Error: page.waitForURL: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**route=product/compare**" until "load"
+============================================================

@@ -1,4 +1,5 @@
 import {Page,expect, Locator} from '@playwright/test';
+import { SearchResultsPage } from './SearchResultsPage';
 
 export class HomePage {
 
@@ -18,7 +19,7 @@ constructor(page:Page){
     this.lnkRegister=page.getByText('Register', { exact: true });
     this.linkLogin=page.getByText('Login', { exact: true });
     this.btnSearch=page.locator("#search button[type='button']");
-    this.txtSearchbox=page.locator("input[placeholder='Search']");
+    this.txtSearchbox=page.getByPlaceholder('Search');
     
 }
 
@@ -61,9 +62,9 @@ async clickRegister(){
 
 //Enter product name in search box
 
-async enterProductName(){
+async enterProductName(productName:string){
     try{
-        await this.txtSearchbox.click();
+        await this.txtSearchbox.fill(productName);
     }catch(error){
         console.log(`Exception occured while entering the product: ${error}`);
         throw error;
@@ -86,6 +87,7 @@ async clickLogin(){
 async clickSearch(){
     try{
         await this.btnSearch.click();
+        return new SearchResultsPage(this.page);
     }catch(error){
         console.log(`Exception occured whle clicking 'Search': ${error}`);
         throw error;

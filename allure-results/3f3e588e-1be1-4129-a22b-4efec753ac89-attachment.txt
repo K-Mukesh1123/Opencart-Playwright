@@ -1,0 +1,19 @@
+[ { testName: 'Search the Product', product: 'iMac' } ]
+Exception occured while entering the product: Error: locator.fill: Test ended.
+Call log:
+  - waiting for getByPlaceholder('Search')
+    - locator resolved to <input value="" type="text" name="search" placeholder="Search" class="form-control input-lg"/>
+    - fill("iMac")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+Exception occured whle clicking 'Search': Error: locator.click: Test ended.
+Call log:
+  - waiting for locator('#search button[type=\'button\']')
+    - locator resolved to <button type="button" class="btn btn-default btn-lg">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
