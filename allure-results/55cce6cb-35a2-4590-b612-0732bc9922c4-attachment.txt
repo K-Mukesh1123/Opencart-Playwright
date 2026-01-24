@@ -1,0 +1,5 @@
+Exception occurred while clicking 'Wish List' link: Error: page.waitForURL: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**route=account/wishlist**" until "load"
+  navigated to "https://tutorialsninja.com/demo/index.php?route=account/login"
+============================================================

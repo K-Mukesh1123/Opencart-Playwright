@@ -1,6 +1,7 @@
 import {Page,Locator,expect} from "@playwright/test";
 
 import {LogoutPage} from "./LogoutPage";
+import { HomePage } from "./HomePage";
 
 export class MyAccountPage{
 
@@ -9,6 +10,7 @@ export class MyAccountPage{
     //Locators:
     private readonly msgHeading:Locator;
     private readonly btnLogout:Locator;
+    private readonly myHomeBtn:Locator;
 
     //constructor
     constructor(page:Page){
@@ -18,6 +20,7 @@ export class MyAccountPage{
         //initilaise locators
         this.msgHeading=page.locator('h2:has-text("My Account")');
         this.btnLogout=page.getByText('Logout').nth(1);
+        this.myHomeBtn=page.locator("i.fa.fa-home");
             
     }
 
@@ -62,6 +65,11 @@ export class MyAccountPage{
 
     async getPageTitle():Promise<string>{
         return (this.page.title());
+    }
+
+    async clickOnHomeButton(){
+        await this.myHomeBtn.click();
+        return new HomePage(this.page);
     }
 
 

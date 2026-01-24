@@ -86,7 +86,4 @@ export class SearchResultsPage {
         return await this.searchProducts.count();
     }
 
-
-
-
 }

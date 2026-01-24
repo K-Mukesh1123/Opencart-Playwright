@@ -1,5 +1,5 @@
 /**
- * Test Scenario: 
+ * Test Scenario: Validate adding the product for comparision from Product Display Page
  * 
  * tags: @master @sanity @regression
  * 
@@ -42,7 +42,7 @@ let productComparison: ProductComparison;
 
 for (const data of jsonTestData) {
 
-    test("Compare 2 Products", async ({ page }) => {
+    test(`Compare 2 Products - ${data.testName}`, async ({ page }) => {
 
         const config = new TestConfig();
         await page.goto(config.appUrl);

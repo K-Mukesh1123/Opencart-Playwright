@@ -1,0 +1,14 @@
+Exception in PromiseRejectCallback:
+C:\Users\mukes\Opencart-Playwright\pages\ProductPage.ts:166
+  }
+  ^
+
+RangeError: Maximum call stack size exceeded
+
+Exception in PromiseRejectCallback:
+C:\Users\mukes\Opencart-Playwright\pages\ProductPage.ts:165
+    await this.clickCloseButton();
+               ^
+
+RangeError: Maximum call stack size exceeded
+

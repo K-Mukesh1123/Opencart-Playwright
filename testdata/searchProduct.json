@@ -1,7 +1,24 @@
 [
     {
-        "testName":"Search the Product",
-        "product":"iMac"
+        "testName":"Search the Product-Bigger Thumbnail",
+        "product":"iMac",
+        "thumbnail": "Bigger Thumbnail"
+        
+    },
+
+    {
+        "testName":"Search the Product-Normal Thumbnail",
+        "product":"iMac",
+        "thumbnail": "Normal Thumbnail"
+        
+    },
+
+    {
+        "testName":"Validation of a product to wishlist",
+        "product":"iPhone",
+        "thumbnail": "Normal Thumbnail"
         
     }
+
+
 ]

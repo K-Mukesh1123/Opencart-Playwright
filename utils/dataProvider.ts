@@ -4,7 +4,7 @@ import fs, { Utf8Stream } from 'fs';
 export class DataProvider{
 
     static getTestDataFromJson(filePath:string){
-       let data= JSON.parse(fs.readFileSync(filePath,'utf-8'))
+       let data= JSON.parse(fs.readFileSync(filePath,'utf-8'));
        return data;
     }
     static gettestDataFromCSV(filePath:string){

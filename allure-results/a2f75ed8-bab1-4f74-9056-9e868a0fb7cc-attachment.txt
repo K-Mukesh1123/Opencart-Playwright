@@ -1,0 +1,7 @@
+Exception occurred while clicking 'Wish List' link: Error: locator.click: Error: strict mode violation: locator('a:has-text(\'wish list\')') resolved to 2 elements:
+    1) <a id="wishlist-total" title="Wish List (0)" href="https://tutorialsninja.com/demo/index.php?route=account/wishlist">…</a> aka getByRole('link', { name: ' Wish List (0)' })
+    2) <a href="https://tutorialsninja.com/demo/index.php?route=account/wishlist">Wish List</a> aka getByRole('link', { name: 'Wish List', exact: true })
+
+Call log:
+  - waiting for locator('a:has-text(\'wish list\')')
+
