@@ -20,7 +20,7 @@ export class MyAccountPage{
         //initilaise locators
         this.msgHeading=page.locator('h2:has-text("My Account")');
         this.btnLogout=page.getByText('Logout').nth(1);
-        this.myHomeBtn=page.locator("i.fa.fa-home");
+        this.myHomeBtn=page.locator("a[href*='home']").first();
             
     }
 
