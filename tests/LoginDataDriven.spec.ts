@@ -7,7 +7,7 @@ import { TestConfig } from "../test.config";
 
 const jsonpath:string="testdata/logindata.json";
 
-const jsonTestData:any=DataProvider.getTestDataFromJson(jsonpath);
+const jsonTestData:any=DataProvider.getTestDataFromJson(jsonpath); 
 
 for(const data of jsonTestData){
 

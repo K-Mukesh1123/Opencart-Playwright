@@ -1,0 +1,49 @@
+/**
+ * Scenario: Validate navigating to 'Shopping Cart' page from the Success message
+ * 
+ * Steps:
+ * 1. Enter any existing Product name into the Search text box field - <Refer Test Data>
+ * 2. Click on the button having search icon
+ * 3. Click on the Product displayed in the Search results
+ * 4. Click on 'Add to Cart' button in the displayed 'Product Display' page
+ * 5. Click on the 'shopping cart!' link in the displayed success message (Validate ER-1)
+ * 
+ */
+
+
+const jsonPath="testdata/searchProduct.json";
+const jsonTestData=DataProvider.getTestDataFromJson(jsonPath);
+
+/*
+const filePath="../testdata/MOCK_DATA.xlsx";
+
+const excelTestData=DataProvider.gettestDataFromExcel(filePath,'data');
+*/
+import {test,expect} from "../fixtures/authFixtures";
+import { HomePage } from "../pages/HomePage";
+import { TestConfig } from "../test.config";
+import { SearchResultsPage } from "../pages/SearchResultsPage";
+import { ProductPage } from "../pages/ProductPage";
+import { CheckoutPage } from "../pages/CheckoutPage";
+import { DataProvider } from "../utils/dataProvider";
+
+for(const data of jsonTestData){
+
+    test(`Validate the Items- ${data.product} in shopping cart`, async ({homePage,myAccountPage},use)=>{
+
+
+      await homePage.enterProductName(data.product);
+      const searchResultsPage=await homePage.clickSearch();
+      const productPage=await searchResultsPage.selectProduct(data.product);
+      const cnfMsg=await productPage.addToCart();
+      await expect(cnfMsg).toBeVisible();      
+      const ShoppingCartPage=await productPage.clickShoppingCart();        
+
+    })
+}
+
+
+
+
+
+

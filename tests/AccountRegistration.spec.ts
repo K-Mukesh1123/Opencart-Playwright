@@ -66,7 +66,7 @@ test('User registration test @master @sanity @regression',async ({page})=>{
    expect(confrirmationMsg).toContain("Your Account Has Been Created!");
 
 
-   await page.waitForTimeout(3000);
+   await page.waitForTimeout(3000);// explicit wait
 
 
 

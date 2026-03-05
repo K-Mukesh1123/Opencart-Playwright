@@ -1,5 +1,5 @@
 /**
- * 
+ * Scenario:Validate adding a product to 'Wish List' page from the Product that is displayed in the 'Related Products' section of 'Product Display' page
  * 
  * Steps:
  * 1. Enter any existing Product name into the Search text box field - <Refer Test Data>

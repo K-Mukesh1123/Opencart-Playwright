@@ -8,7 +8,7 @@
 
     {
         "testName":"Search the Product-Normal Thumbnail",
-        "product":"iMac",
+        "product":"MacBook",
         "thumbnail": "Normal Thumbnail"
         
     },
@@ -16,7 +16,7 @@
     {
         "testName":"Validation of a product to wishlist",
         "product":"iPhone",
-        "thumbnail": "Normal Thumbnail"
+        "thumbnail": "Normal"
         
     }
 

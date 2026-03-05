@@ -1,0 +1,278 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software Testing courses" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Software Testing courses
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - paragraph [ref=e34]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e35] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e36]:
+      - insertion [ref=e38]:
+        - generic [ref=e41]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e43]: Discover more
+          - link "Test case examples" [ref=e44] [cursor=pointer]:
+            - generic "Test case examples" [ref=e45]
+            - img [ref=e47]
+          - link "Automation practice website" [ref=e49] [cursor=pointer]:
+            - generic "Automation practice website" [ref=e50]
+            - img [ref=e52]
+          - link "Testing" [ref=e54] [cursor=pointer]:
+            - generic "Testing" [ref=e55]
+            - img [ref=e57]
+          - link "Online coding bootcamps" [ref=e59] [cursor=pointer]:
+            - generic "Online coding bootcamps" [ref=e60]
+            - img [ref=e62]
+          - link "Web development services" [ref=e64] [cursor=pointer]:
+            - generic "Web development services" [ref=e65]
+            - img [ref=e67]
+          - link "ISTQB certification materials" [ref=e69] [cursor=pointer]:
+            - generic "ISTQB certification materials" [ref=e70]
+            - img [ref=e72]
+          - link "Technical interview preparation" [ref=e74] [cursor=pointer]:
+            - generic "Technical interview preparation" [ref=e75]
+            - img [ref=e77]
+          - link "QA consulting services" [ref=e79] [cursor=pointer]:
+            - generic "QA consulting services" [ref=e80]
+            - img [ref=e82]
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - navigation "breadcrumb mb-2" [ref=e87]:
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - link "Home" [ref=e90] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e91]: / Login Page
+          - heading "Test Login page for Automation Testing Practice" [level=1] [ref=e92]
+          - generic [ref=e94]:
+            - paragraph [ref=e95]: This Test Login page is designed for automation testing practice. Test various positive and negative login scenarios in a testing environment.
+            - paragraph [ref=e96]:
+              - text: You can use this login page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+              - link "QA Developer training" [ref=e97] [cursor=pointer]:
+                - img [ref=e99]
+                - text: QA Developer training
+            - paragraph [ref=e101]:
+              - text: Register
+              - link "here" [ref=e102] [cursor=pointer]:
+                - /url: /register
+              - text: "or Log in to the secure area with these credentials:"
+            - list [ref=e103]:
+              - listitem [ref=e104]: "Username: practice"
+              - listitem [ref=e105]: "Password: SuperSecretPassword!"
+            - paragraph
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: Username
+                - textbox "Username" [ref=e114]: cmcpartling7
+              - generic [ref=e115]:
+                - generic [ref=e116]: Password
+                - textbox "Password" [ref=e117]: rN5*ZXV42If8F2!
+            - button "Login" [ref=e118] [cursor=pointer]
+          - generic [ref=e119]:
+            - heading "How to test the login page?" [level=2] [ref=e120]
+            - generic [ref=e121]:
+              - paragraph [ref=e122]:
+                - text: If the credentials are correct, you should see a welcome message; otherwise, you will see an error message.
+                - link "Cypress testing course" [ref=e123] [cursor=pointer]:
+                  - img [ref=e125]
+                  - text: Cypress testing course
+              - paragraph [ref=e127]: The login feature is essential for secure websites and is commonly used. Automating the testing of various login scenarios, including different edge cases, is crucial to ensure reliability and security.
+              - heading "How Does Form-Based Authentication Work?" [level=3] [ref=e128]
+              - paragraph [ref=e129]: "Take a look at this diagram and review the different steps:"
+              - img "How Does Form-Based Authentication Work" [ref=e130]
+              - list [ref=e131]:
+                - listitem [ref=e132]: "Step 1: A client requests access to a protected resource"
+                - listitem [ref=e133]: "Step 2: If the client is unauthenticated, the server redirects the client to a login page"
+                - listitem [ref=e134]: "Step 3: The client submits the login form to the server"
+                - listitem [ref=e135]: "Step 4: If the login succeeds, the server redirects the client to the resource. If the login fails, the client is redirected to an error page"
+        - generic [ref=e137]:
+          - heading "Login Automation Test Cases" [level=2] [ref=e138]
+          - insertion [ref=e140]:
+            - generic [ref=e143]:
+              - heading "These are topics related to the article that might interest you" [level=2] [ref=e145]: Discover more
+              - link "Test automation" [ref=e146] [cursor=pointer]:
+                - generic "Test automation" [ref=e147]
+                - img [ref=e149]
+              - link "Software testing conferences" [ref=e151] [cursor=pointer]:
+                - generic "Software testing conferences" [ref=e152]
+                - img [ref=e154]
+              - link "WebdriverIO testing resources" [ref=e156] [cursor=pointer]:
+                - generic "WebdriverIO testing resources" [ref=e157]
+                - img [ref=e159]
+          - paragraph [ref=e161]:
+            - text: Below are the test cases for the login page. These test cases cover both positive and negative scenarios to ensure comprehensive testing of the login functionality.
+            - link "Credential management tools" [ref=e162] [cursor=pointer]:
+              - img [ref=e164]
+              - text: Credential management tools
+          - paragraph [ref=e166]:
+            - text: To perform these tests, please navigate to this
+            - link "page" [ref=e167] [cursor=pointer]:
+              - /url: /login
+          - heading "Login Automation Test Cases" [level=2] [ref=e168]
+          - 'heading "Test Case 1: Successful Login" [level=3] [ref=e169]'
+          - list [ref=e170]:
+            - listitem [ref=e171]: Launch the browser.
+            - listitem [ref=e172]:
+              - text: Navigate to the
+              - link "login" [ref=e173] [cursor=pointer]:
+                - /url: /login
+              - text: page URL.
+            - listitem [ref=e174]: Verify that the login page is displayed successfully.
+            - listitem [ref=e175]:
+              - text: Enter
+              - strong [ref=e176]: Username
+              - text: ":"
+              - code [ref=e177]: practice
+              - text: .
+            - listitem [ref=e178]:
+              - text: Enter
+              - strong [ref=e179]: Password
+              - text: ":"
+              - code [ref=e180]: SuperSecretPassword!
+              - text: .
+            - listitem [ref=e181]:
+              - text: Click the
+              - strong [ref=e182]: Login
+              - text: button.
+            - listitem [ref=e183]:
+              - text: Verify that the user is redirected to the
+              - code [ref=e184]: /secure
+              - text: page.
+            - listitem [ref=e185]: Confirm the success message "You logged into a secure area!" is visible.
+            - listitem [ref=e186]:
+              - text: Verify that a
+              - strong [ref=e187]: Logout
+              - text: button is displayed.
+          - separator [ref=e188]
+          - 'heading "Test Case 2: Invalid Username" [level=3] [ref=e189]'
+          - list [ref=e190]:
+            - listitem [ref=e191]: Launch the browser.
+            - listitem [ref=e192]: Navigate to the login page URL.
+            - listitem [ref=e193]: Verify that the login page is displayed successfully.
+            - listitem [ref=e194]:
+              - text: Enter an incorrect
+              - strong [ref=e195]: Username
+              - text: (e.g.,
+              - code [ref=e196]: wrongUser
+              - text: ).
+            - listitem [ref=e197]:
+              - text: Enter
+              - strong [ref=e198]: Password
+              - text: ":"
+              - code [ref=e199]: SuperSecretPassword!
+              - text: .
+            - listitem [ref=e200]:
+              - text: Click the
+              - strong [ref=e201]: Login
+              - text: button.
+            - listitem [ref=e202]: Verify that an error message "Invalid username." is displayed.
+            - listitem [ref=e203]: Ensure the user remains on the login page.
+          - separator [ref=e204]
+          - 'heading "Test Case 3: Invalid Password" [level=3] [ref=e205]'
+          - list [ref=e206]:
+            - listitem [ref=e207]: Launch the browser.
+            - listitem [ref=e208]: Navigate to the login page URL.
+            - listitem [ref=e209]: Verify that the login page is displayed successfully.
+            - listitem [ref=e210]:
+              - text: Enter
+              - strong [ref=e211]: Username
+              - text: ":"
+              - code [ref=e212]: practice
+              - text: .
+            - listitem [ref=e213]:
+              - text: Enter an incorrect
+              - strong [ref=e214]: Password
+              - text: (e.g.,
+              - code [ref=e215]: WrongPassword
+              - text: ).
+            - listitem [ref=e216]:
+              - text: Click the
+              - strong [ref=e217]: Login
+              - text: button.
+            - listitem [ref=e218]: Verify that an error message "Invalid password." is displayed.
+            - listitem [ref=e219]: Ensure the user remains on the login page.
+    - insertion [ref=e221]:
+      - generic [ref=e224]:
+        - heading "These are topics related to the article that might interest you" [level=2] [ref=e226]: Discover more
+        - link "Automated testing scripts" [ref=e227] [cursor=pointer]:
+          - generic "Automated testing scripts" [ref=e228]
+          - img [ref=e230]
+        - link "Automation Test" [ref=e232] [cursor=pointer]:
+          - generic "Automation Test" [ref=e233]
+          - img [ref=e235]
+        - link "Computer hardware for testing" [ref=e237] [cursor=pointer]:
+          - generic "Computer hardware for testing" [ref=e238]
+          - img [ref=e240]
+        - link "Test Automation" [ref=e242] [cursor=pointer]:
+          - generic "Test Automation" [ref=e243]
+          - img [ref=e245]
+        - link "Selenium training programs" [ref=e247] [cursor=pointer]:
+          - generic "Selenium training programs" [ref=e248]
+          - img [ref=e250]
+        - link "Secure password practices" [ref=e252] [cursor=pointer]:
+          - generic "Secure password practices" [ref=e253]
+          - img [ref=e255]
+        - link "Scenario testing workshops" [ref=e257] [cursor=pointer]:
+          - generic "Scenario testing workshops" [ref=e258]
+          - img [ref=e260]
+        - link "Software testing courses" [ref=e262] [cursor=pointer]:
+          - generic "Software testing courses" [ref=e263]
+          - img [ref=e265]
+  - insertion [ref=e268]:
+    - generic [ref=e271]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e273]: Discover more
+      - link "Website monitoring tools" [ref=e274] [cursor=pointer]:
+        - generic "Website monitoring tools" [ref=e275]
+        - img [ref=e277]
+      - link "Login test cases" [ref=e279] [cursor=pointer]:
+        - generic "Login test cases" [ref=e280]
+        - img [ref=e282]
+      - link "Test case management software" [ref=e284] [cursor=pointer]:
+        - generic "Test case management software" [ref=e285]
+        - img [ref=e287]
+  - contentinfo [ref=e289]:
+    - generic [ref=e294]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e295]
+      - paragraph [ref=e296]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e297] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - img [ref=e299] [cursor=pointer]
+```

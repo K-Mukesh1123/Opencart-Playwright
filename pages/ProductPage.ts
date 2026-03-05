@@ -25,6 +25,7 @@ export class ProductPage {
     private readonly wishListBtn:Locator;
     private readonly wishListMsg:Locator;
     private readonly wishListLink:Locator;
+    private readonly lnkShoppingCart:Locator;
 
 
     constructor(page: Page) {
@@ -47,6 +48,7 @@ export class ProductPage {
         this.wishListBtn=page.locator("button[data-original-title='Add to Wish List']");
         this.wishListMsg=page.locator("div[class='alert alert-success alert-dismissible']");
         this.wishListLink=page.getByText('wish list', { exact: true });
+        this.lnkShoppingCart=page.getByText('shopping cart',{exact: true});
 
     }
 
@@ -62,8 +64,9 @@ export class ProductPage {
     /**
      * Adds product to cart
      */
-    async addToCart(): Promise<void> {
+    async addToCart(): Promise<Locator> {
         await this.btnAddToCart.click();
+        return this.cnfMsg;
     }
 
     /**
@@ -71,19 +74,13 @@ export class ProductPage {
      * @returns Promise<boolean> - Returns true if message is visible
      */
     async isConfirmationMessageVisible(): Promise<boolean> {
-        try {
-            if (this.cnfMsg != null) {
-                return true;
-            }
-            else {
-                return false;
-            }//await expect(this.cnfMsg).toBeVisible();
-
-        } catch (error) {
-            console.log(`Confirmation message not found: ${error}`);
-            return false;
-        }
+    try {
+        return await this.cnfMsg.isVisible();
+    } catch (error) {
+        console.log(`Confirmation message not found: ${error}`);
+        return false;
     }
+}
 
     /**
      * Clicks on Items button to navigate to cart
@@ -98,6 +95,11 @@ export class ProductPage {
      */
     async clickViewCart(): Promise<ShoppingCartPage> {
         await this.lnkViewCart.click();
+        return new ShoppingCartPage(this.page);
+    }
+
+    async clickShoppingCart(): Promise<ShoppingCartPage> {
+        await this.lnkShoppingCart.click();
         return new ShoppingCartPage(this.page);
     }
 

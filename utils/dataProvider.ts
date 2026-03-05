@@ -1,5 +1,8 @@
 import {parse} from 'csv-parse/sync';
 import fs, { Utf8Stream } from 'fs';
+import * as XLSX from 'xlsx';
+import * as path from 'path'
+
 
 export class DataProvider{
 
@@ -11,5 +14,18 @@ export class DataProvider{
         
        let data= parse(fs.readFileSync(filePath),{columns:true,skip_empty_lines:true});
         return data;
+    }
+
+    static gettestDataFromExcel(xlsxpath:string,sheetName:string){
+        const filePath=path.resolve(__dirname,xlsxpath);
+        const workbook=XLSX.readFile(filePath);
+        const sheet=workbook.Sheets[sheetName];
+
+        if(!sheet){
+            throw new Error(`Sheet ${sheetName} not found`);
+        }
+
+        return XLSX.utils.sheet_to_json(sheet);
+
     }
 }

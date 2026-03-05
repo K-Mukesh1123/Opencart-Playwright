@@ -1,0 +1,312 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software Testing courses" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Software Testing courses
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - insertion [ref=e33]:
+      - iframe [ref=e35]:
+        - generic [active] [ref=f3e1]:
+          - generic [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C10WFUP2oaaiPH-WY7OsPgKLs-Qacn7DIhAGxwIznsBW3y6K9wAEQASCVlJmjAWDl6uMDoAGrxfXTAsgBCakCmcmhKxz4YD6oAwHIA8sEqgSpAk_QekzaakibzYTwoJAdTWp4PMNTyhESSzrwIR9MWcP4UZiMQNKQj1mdwXFsKeGfDrtPG7OJt7mp-0j10_OvoNCbyEpdOBEvDKr5WLgB3OCz1Sm_PbEKf1YCsvqWmdblxSFQFeUHqgr5IzIFM0TkA1GbsAiY4OSrWWeX-NAf-ViaoIyl1UfqZTeDniPqGk4QmlKoYvp7L81mWhsZkfst10CKNo7doThS9TzMSfVF7X7V9Gj3IuUJG7NAVOZ4zosQKd3lzIMdPCSdeoLFLjiweaZ8EKnYnFbvmb-dcwRci3i8Vi1qqNe2SyH6ln-hG-SFySubnM9zQM1WYHfIqITcwijgIcjwo0ZW83_sceTckoiDGn3Vm7lRhw6_uNv2IYPm4iDq6lmJaZUJVMAEkarg-rEEiAWZyYSzTKAGLoAHvbqKrAGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_wpWa7YeTA7EJJqIGveBWM4GACgGYCwHICwGADAGiDAsqBgoE1tqxApABAaoNAklOyA0B6g0TCNn7lprth5MDFWUMewcdABE7b_ANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwkAAAAAwP7zQBIKNDk3MDIxMjIyMRgBshgJEgKXWBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE&num=1&cid=CAQSswEA56J1ebvpEeqWZePS0V08sOfGCvTVFO56EcKlP0DBn8nlFDnmF1erGfp931GsgyXztaE_zbU8NfQOFNj3lkQS1s_SUX4WT2vd2dbbmuqFnDwC6kEN9eaG58eM3c2lPY_RZCaTluYisBgtTJgPqB8VXfg8U2ZOVA0oocakxDef24w_E24DlyOWLjcdBdq6TJ4ZJmxvH1vIU9LOcnbStOSbgoX1wdssa8UMKCDbUFrrP7pFoBgB&sig=AOD64_34DTU87slCMN5zmDDe3FCNmPOodw&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://www.sumake.com/assembly-tools.htm%3Fgad_source%3D5%26gad_campaignid%3D20508124313%26gclid%3DEAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE
+              - img [ref=f3e8]
+            - generic [ref=f3e10]:
+              - generic [ref=f3e13]:
+                - link "Electric Screwdriver" [ref=f3e16] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C10WFUP2oaaiPH-WY7OsPgKLs-Qacn7DIhAGxwIznsBW3y6K9wAEQASCVlJmjAWDl6uMDoAGrxfXTAsgBCakCmcmhKxz4YD6oAwHIA8sEqgSpAk_QekzaakibzYTwoJAdTWp4PMNTyhESSzrwIR9MWcP4UZiMQNKQj1mdwXFsKeGfDrtPG7OJt7mp-0j10_OvoNCbyEpdOBEvDKr5WLgB3OCz1Sm_PbEKf1YCsvqWmdblxSFQFeUHqgr5IzIFM0TkA1GbsAiY4OSrWWeX-NAf-ViaoIyl1UfqZTeDniPqGk4QmlKoYvp7L81mWhsZkfst10CKNo7doThS9TzMSfVF7X7V9Gj3IuUJG7NAVOZ4zosQKd3lzIMdPCSdeoLFLjiweaZ8EKnYnFbvmb-dcwRci3i8Vi1qqNe2SyH6ln-hG-SFySubnM9zQM1WYHfIqITcwijgIcjwo0ZW83_sceTckoiDGn3Vm7lRhw6_uNv2IYPm4iDq6lmJaZUJVMAEkarg-rEEiAWZyYSzTKAGLoAHvbqKrAGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_wpWa7YeTA7EJJqIGveBWM4GACgGYCwHICwGADAGiDAsqBgoE1tqxApABAaoNAklOyA0B6g0TCNn7lprth5MDFWUMewcdABE7b_ANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwkAAAAAwP7zQBIKNDk3MDIxMjIyMRgBshgJEgKXWBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE&num=1&cid=CAQSswEA56J1ebvpEeqWZePS0V08sOfGCvTVFO56EcKlP0DBn8nlFDnmF1erGfp931GsgyXztaE_zbU8NfQOFNj3lkQS1s_SUX4WT2vd2dbbmuqFnDwC6kEN9eaG58eM3c2lPY_RZCaTluYisBgtTJgPqB8VXfg8U2ZOVA0oocakxDef24w_E24DlyOWLjcdBdq6TJ4ZJmxvH1vIU9LOcnbStOSbgoX1wdssa8UMKCDbUFrrP7pFoBgB&sig=AOD64_34DTU87slCMN5zmDDe3FCNmPOodw&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.sumake.com/assembly-tools.htm%3Fgad_source%3D5%26gad_campaignid%3D20508124313%26gclid%3DEAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE
+                - link "We are global provider of air screwdriver and electric tools, assembly systems" [ref=f3e19] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C10WFUP2oaaiPH-WY7OsPgKLs-Qacn7DIhAGxwIznsBW3y6K9wAEQASCVlJmjAWDl6uMDoAGrxfXTAsgBCakCmcmhKxz4YD6oAwHIA8sEqgSpAk_QekzaakibzYTwoJAdTWp4PMNTyhESSzrwIR9MWcP4UZiMQNKQj1mdwXFsKeGfDrtPG7OJt7mp-0j10_OvoNCbyEpdOBEvDKr5WLgB3OCz1Sm_PbEKf1YCsvqWmdblxSFQFeUHqgr5IzIFM0TkA1GbsAiY4OSrWWeX-NAf-ViaoIyl1UfqZTeDniPqGk4QmlKoYvp7L81mWhsZkfst10CKNo7doThS9TzMSfVF7X7V9Gj3IuUJG7NAVOZ4zosQKd3lzIMdPCSdeoLFLjiweaZ8EKnYnFbvmb-dcwRci3i8Vi1qqNe2SyH6ln-hG-SFySubnM9zQM1WYHfIqITcwijgIcjwo0ZW83_sceTckoiDGn3Vm7lRhw6_uNv2IYPm4iDq6lmJaZUJVMAEkarg-rEEiAWZyYSzTKAGLoAHvbqKrAGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_wpWa7YeTA7EJJqIGveBWM4GACgGYCwHICwGADAGiDAsqBgoE1tqxApABAaoNAklOyA0B6g0TCNn7lprth5MDFWUMewcdABE7b_ANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwkAAAAAwP7zQBIKNDk3MDIxMjIyMRgBshgJEgKXWBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE&num=1&cid=CAQSswEA56J1ebvpEeqWZePS0V08sOfGCvTVFO56EcKlP0DBn8nlFDnmF1erGfp931GsgyXztaE_zbU8NfQOFNj3lkQS1s_SUX4WT2vd2dbbmuqFnDwC6kEN9eaG58eM3c2lPY_RZCaTluYisBgtTJgPqB8VXfg8U2ZOVA0oocakxDef24w_E24DlyOWLjcdBdq6TJ4ZJmxvH1vIU9LOcnbStOSbgoX1wdssa8UMKCDbUFrrP7pFoBgB&sig=AOD64_34DTU87slCMN5zmDDe3FCNmPOodw&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.sumake.com/assembly-tools.htm%3Fgad_source%3D5%26gad_campaignid%3D20508124313%26gclid%3DEAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE
+                  - text: We are global provider of air screwdriver and electric tools, assembly
+                  - text: systems
+              - generic [ref=f3e22]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C10WFUP2oaaiPH-WY7OsPgKLs-Qacn7DIhAGxwIznsBW3y6K9wAEQASCVlJmjAWDl6uMDoAGrxfXTAsgBCakCmcmhKxz4YD6oAwHIA8sEqgSpAk_QekzaakibzYTwoJAdTWp4PMNTyhESSzrwIR9MWcP4UZiMQNKQj1mdwXFsKeGfDrtPG7OJt7mp-0j10_OvoNCbyEpdOBEvDKr5WLgB3OCz1Sm_PbEKf1YCsvqWmdblxSFQFeUHqgr5IzIFM0TkA1GbsAiY4OSrWWeX-NAf-ViaoIyl1UfqZTeDniPqGk4QmlKoYvp7L81mWhsZkfst10CKNo7doThS9TzMSfVF7X7V9Gj3IuUJG7NAVOZ4zosQKd3lzIMdPCSdeoLFLjiweaZ8EKnYnFbvmb-dcwRci3i8Vi1qqNe2SyH6ln-hG-SFySubnM9zQM1WYHfIqITcwijgIcjwo0ZW83_sceTckoiDGn3Vm7lRhw6_uNv2IYPm4iDq6lmJaZUJVMAEkarg-rEEiAWZyYSzTKAGLoAHvbqKrAGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_wpWa7YeTA7EJJqIGveBWM4GACgGYCwHICwGADAGiDAsqBgoE1tqxApABAaoNAklOyA0B6g0TCNn7lprth5MDFWUMewcdABE7b_ANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwkAAAAAwP7zQBIKNDk3MDIxMjIyMRgBshgJEgKXWBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE&num=1&cid=CAQSswEA56J1ebvpEeqWZePS0V08sOfGCvTVFO56EcKlP0DBn8nlFDnmF1erGfp931GsgyXztaE_zbU8NfQOFNj3lkQS1s_SUX4WT2vd2dbbmuqFnDwC6kEN9eaG58eM3c2lPY_RZCaTluYisBgtTJgPqB8VXfg8U2ZOVA0oocakxDef24w_E24DlyOWLjcdBdq6TJ4ZJmxvH1vIU9LOcnbStOSbgoX1wdssa8UMKCDbUFrrP7pFoBgB&sig=AOD64_34DTU87slCMN5zmDDe3FCNmPOodw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.sumake.com/assembly-tools.htm%3Fgad_source%3D5%26gad_campaignid%3D20508124313%26gclid%3DEAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE
+                - link "sumake.com" [ref=f3e24] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C10WFUP2oaaiPH-WY7OsPgKLs-Qacn7DIhAGxwIznsBW3y6K9wAEQASCVlJmjAWDl6uMDoAGrxfXTAsgBCakCmcmhKxz4YD6oAwHIA8sEqgSpAk_QekzaakibzYTwoJAdTWp4PMNTyhESSzrwIR9MWcP4UZiMQNKQj1mdwXFsKeGfDrtPG7OJt7mp-0j10_OvoNCbyEpdOBEvDKr5WLgB3OCz1Sm_PbEKf1YCsvqWmdblxSFQFeUHqgr5IzIFM0TkA1GbsAiY4OSrWWeX-NAf-ViaoIyl1UfqZTeDniPqGk4QmlKoYvp7L81mWhsZkfst10CKNo7doThS9TzMSfVF7X7V9Gj3IuUJG7NAVOZ4zosQKd3lzIMdPCSdeoLFLjiweaZ8EKnYnFbvmb-dcwRci3i8Vi1qqNe2SyH6ln-hG-SFySubnM9zQM1WYHfIqITcwijgIcjwo0ZW83_sceTckoiDGn3Vm7lRhw6_uNv2IYPm4iDq6lmJaZUJVMAEkarg-rEEiAWZyYSzTKAGLoAHvbqKrAGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_wpWa7YeTA7EJJqIGveBWM4GACgGYCwHICwGADAGiDAsqBgoE1tqxApABAaoNAklOyA0B6g0TCNn7lprth5MDFWUMewcdABE7b_ANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwkAAAAAwP7zQBIKNDk3MDIxMjIyMRgBshgJEgKXWBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE&num=1&cid=CAQSswEA56J1ebvpEeqWZePS0V08sOfGCvTVFO56EcKlP0DBn8nlFDnmF1erGfp931GsgyXztaE_zbU8NfQOFNj3lkQS1s_SUX4WT2vd2dbbmuqFnDwC6kEN9eaG58eM3c2lPY_RZCaTluYisBgtTJgPqB8VXfg8U2ZOVA0oocakxDef24w_E24DlyOWLjcdBdq6TJ4ZJmxvH1vIU9LOcnbStOSbgoX1wdssa8UMKCDbUFrrP7pFoBgB&sig=AOD64_34DTU87slCMN5zmDDe3FCNmPOodw&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.sumake.com/assembly-tools.htm%3Fgad_source%3D5%26gad_campaignid%3D20508124313%26gclid%3DEAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE
+                - link "Open" [ref=f3e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C10WFUP2oaaiPH-WY7OsPgKLs-Qacn7DIhAGxwIznsBW3y6K9wAEQASCVlJmjAWDl6uMDoAGrxfXTAsgBCakCmcmhKxz4YD6oAwHIA8sEqgSpAk_QekzaakibzYTwoJAdTWp4PMNTyhESSzrwIR9MWcP4UZiMQNKQj1mdwXFsKeGfDrtPG7OJt7mp-0j10_OvoNCbyEpdOBEvDKr5WLgB3OCz1Sm_PbEKf1YCsvqWmdblxSFQFeUHqgr5IzIFM0TkA1GbsAiY4OSrWWeX-NAf-ViaoIyl1UfqZTeDniPqGk4QmlKoYvp7L81mWhsZkfst10CKNo7doThS9TzMSfVF7X7V9Gj3IuUJG7NAVOZ4zosQKd3lzIMdPCSdeoLFLjiweaZ8EKnYnFbvmb-dcwRci3i8Vi1qqNe2SyH6ln-hG-SFySubnM9zQM1WYHfIqITcwijgIcjwo0ZW83_sceTckoiDGn3Vm7lRhw6_uNv2IYPm4iDq6lmJaZUJVMAEkarg-rEEiAWZyYSzTKAGLoAHvbqKrAGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_wpWa7YeTA7EJJqIGveBWM4GACgGYCwHICwGADAGiDAsqBgoE1tqxApABAaoNAklOyA0B6g0TCNn7lprth5MDFWUMewcdABE7b_ANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwkAAAAAwP7zQBIKNDk3MDIxMjIyMRgBshgJEgKXWBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE&num=1&cid=CAQSswEA56J1ebvpEeqWZePS0V08sOfGCvTVFO56EcKlP0DBn8nlFDnmF1erGfp931GsgyXztaE_zbU8NfQOFNj3lkQS1s_SUX4WT2vd2dbbmuqFnDwC6kEN9eaG58eM3c2lPY_RZCaTluYisBgtTJgPqB8VXfg8U2ZOVA0oocakxDef24w_E24DlyOWLjcdBdq6TJ4ZJmxvH1vIU9LOcnbStOSbgoX1wdssa8UMKCDbUFrrP7pFoBgB&sig=AOD64_34DTU87slCMN5zmDDe3FCNmPOodw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.sumake.com/assembly-tools.htm%3Fgad_source%3D5%26gad_campaignid%3D20508124313%26gclid%3DEAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE
+                - link [ref=f3e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C10WFUP2oaaiPH-WY7OsPgKLs-Qacn7DIhAGxwIznsBW3y6K9wAEQASCVlJmjAWDl6uMDoAGrxfXTAsgBCakCmcmhKxz4YD6oAwHIA8sEqgSpAk_QekzaakibzYTwoJAdTWp4PMNTyhESSzrwIR9MWcP4UZiMQNKQj1mdwXFsKeGfDrtPG7OJt7mp-0j10_OvoNCbyEpdOBEvDKr5WLgB3OCz1Sm_PbEKf1YCsvqWmdblxSFQFeUHqgr5IzIFM0TkA1GbsAiY4OSrWWeX-NAf-ViaoIyl1UfqZTeDniPqGk4QmlKoYvp7L81mWhsZkfst10CKNo7doThS9TzMSfVF7X7V9Gj3IuUJG7NAVOZ4zosQKd3lzIMdPCSdeoLFLjiweaZ8EKnYnFbvmb-dcwRci3i8Vi1qqNe2SyH6ln-hG-SFySubnM9zQM1WYHfIqITcwijgIcjwo0ZW83_sceTckoiDGn3Vm7lRhw6_uNv2IYPm4iDq6lmJaZUJVMAEkarg-rEEiAWZyYSzTKAGLoAHvbqKrAGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOli_wpWa7YeTA7EJJqIGveBWM4GACgGYCwHICwGADAGiDAsqBgoE1tqxApABAaoNAklOyA0B6g0TCNn7lprth5MDFWUMewcdABE7b_ANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwkAAAAAwP7zQBIKNDk3MDIxMjIyMRgBshgJEgKXWBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE&num=1&cid=CAQSswEA56J1ebvpEeqWZePS0V08sOfGCvTVFO56EcKlP0DBn8nlFDnmF1erGfp931GsgyXztaE_zbU8NfQOFNj3lkQS1s_SUX4WT2vd2dbbmuqFnDwC6kEN9eaG58eM3c2lPY_RZCaTluYisBgtTJgPqB8VXfg8U2ZOVA0oocakxDef24w_E24DlyOWLjcdBdq6TJ4ZJmxvH1vIU9LOcnbStOSbgoX1wdssa8UMKCDbUFrrP7pFoBgB&sig=AOD64_34DTU87slCMN5zmDDe3FCNmPOodw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.sumake.com/assembly-tools.htm%3Fgad_source%3D5%26gad_campaignid%3D20508124313%26gclid%3DEAIaIQobChMIqPeWmu2HkwMVZQx7Bx0AETtvEAEYASAAEgIKOPD_BwE
+                  - generic [ref=f3e28]:
+                    - img [ref=f3e29]
+                    - img [ref=f3e31]
+          - img [ref=f3e39] [cursor=pointer]
+          - button [ref=f3e41] [cursor=pointer]:
+            - img [ref=f3e42]
+          - iframe
+    - paragraph [ref=e37]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e38] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e39]:
+      - insertion [ref=e41]:
+        - generic [ref=e44]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e46]: Discover more
+          - link "ISTQB certification materials" [ref=e47] [cursor=pointer]:
+            - generic "ISTQB certification materials" [ref=e48]
+            - img [ref=e50]
+          - link "Computer hardware for testing" [ref=e52] [cursor=pointer]:
+            - generic "Computer hardware for testing" [ref=e53]
+            - img [ref=e55]
+          - link "Playwright automation tutorials" [ref=e57] [cursor=pointer]:
+            - generic "Playwright automation tutorials" [ref=e58]
+            - img [ref=e60]
+          - link "Testing tools guide" [ref=e62] [cursor=pointer]:
+            - generic "Testing tools guide" [ref=e63]
+            - img [ref=e65]
+          - link "PMP exam practice questions" [ref=e67] [cursor=pointer]:
+            - generic "PMP exam practice questions" [ref=e68]
+            - img [ref=e70]
+          - link "Authentication" [ref=e72] [cursor=pointer]:
+            - generic "Authentication" [ref=e73]
+            - img [ref=e75]
+          - link "Test Automation" [ref=e77] [cursor=pointer]:
+            - generic "Test Automation" [ref=e78]
+            - img [ref=e80]
+          - link "Test case management software" [ref=e82] [cursor=pointer]:
+            - generic "Test case management software" [ref=e83]
+            - img [ref=e85]
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - navigation "breadcrumb mb-2" [ref=e90]:
+            - list [ref=e91]:
+              - listitem [ref=e92]:
+                - link "Home" [ref=e93] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e94]: / Login Page
+          - heading "Test Login page for Automation Testing Practice" [level=1] [ref=e95]
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: This Test Login page is designed for automation testing practice. Test various positive and negative login scenarios in a testing environment.
+            - paragraph [ref=e99]:
+              - text: You can use this login page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+              - link "QA Developer training" [ref=e100] [cursor=pointer]:
+                - img [ref=e102]
+                - text: QA Developer training
+            - paragraph [ref=e104]:
+              - text: Register
+              - link "here" [ref=e105] [cursor=pointer]:
+                - /url: /register
+              - text: "or Log in to the secure area with these credentials:"
+            - list [ref=e106]:
+              - listitem [ref=e107]: "Username: practice"
+              - listitem [ref=e108]: "Password: SuperSecretPassword!"
+            - paragraph
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e116]: Username
+                - textbox "Username" [ref=e117]: tbarton8
+              - generic [ref=e118]:
+                - generic [ref=e119]: Password
+                - textbox "Password" [ref=e120]: gU6_Ga_Lu
+            - button "Login" [ref=e121] [cursor=pointer]
+          - generic [ref=e122]:
+            - heading "How to test the login page?" [level=2] [ref=e123]
+            - generic [ref=e124]:
+              - paragraph [ref=e125]:
+                - text: If the credentials are correct, you should see a welcome message; otherwise, you will see an error message.
+                - link "Cypress testing course" [ref=e126] [cursor=pointer]:
+                  - img [ref=e128]
+                  - text: Cypress testing course
+              - paragraph [ref=e130]: The login feature is essential for secure websites and is commonly used. Automating the testing of various login scenarios, including different edge cases, is crucial to ensure reliability and security.
+              - heading "How Does Form-Based Authentication Work?" [level=3] [ref=e131]
+              - paragraph [ref=e132]: "Take a look at this diagram and review the different steps:"
+              - img "How Does Form-Based Authentication Work" [ref=e133]
+              - list [ref=e134]:
+                - listitem [ref=e135]: "Step 1: A client requests access to a protected resource"
+                - listitem [ref=e136]: "Step 2: If the client is unauthenticated, the server redirects the client to a login page"
+                - listitem [ref=e137]: "Step 3: The client submits the login form to the server"
+                - listitem [ref=e138]: "Step 4: If the login succeeds, the server redirects the client to the resource. If the login fails, the client is redirected to an error page"
+        - generic [ref=e140]:
+          - heading "Login Automation Test Cases" [level=2] [ref=e141]
+          - insertion [ref=e143]:
+            - generic [ref=e146]:
+              - heading "These are topics related to the article that might interest you" [level=2] [ref=e148]: Discover more
+              - link "Test case examples" [ref=e149] [cursor=pointer]:
+                - generic "Test case examples" [ref=e150]
+                - img [ref=e152]
+              - link "API testing services" [ref=e154] [cursor=pointer]:
+                - generic "API testing services" [ref=e155]
+                - img [ref=e157]
+              - link "Automated testing scripts" [ref=e159] [cursor=pointer]:
+                - generic "Automated testing scripts" [ref=e160]
+                - img [ref=e162]
+          - paragraph [ref=e164]:
+            - text: Below are the test cases for the login page. These test cases cover both positive and negative scenarios to ensure comprehensive testing of the login functionality.
+            - link "Credential management tools" [ref=e165] [cursor=pointer]:
+              - img [ref=e167]
+              - text: Credential management tools
+          - paragraph [ref=e169]:
+            - text: To perform these tests, please navigate to this
+            - link "page" [ref=e170] [cursor=pointer]:
+              - /url: /login
+          - heading "Login Automation Test Cases" [level=2] [ref=e171]
+          - 'heading "Test Case 1: Successful Login" [level=3] [ref=e172]'
+          - list [ref=e173]:
+            - listitem [ref=e174]: Launch the browser.
+            - listitem [ref=e175]:
+              - text: Navigate to the
+              - link "login" [ref=e176] [cursor=pointer]:
+                - /url: /login
+              - text: page URL.
+            - listitem [ref=e177]: Verify that the login page is displayed successfully.
+            - listitem [ref=e178]:
+              - text: Enter
+              - strong [ref=e179]: Username
+              - text: ":"
+              - code [ref=e180]: practice
+              - text: .
+            - listitem [ref=e181]:
+              - text: Enter
+              - strong [ref=e182]: Password
+              - text: ":"
+              - code [ref=e183]: SuperSecretPassword!
+              - text: .
+            - listitem [ref=e184]:
+              - text: Click the
+              - strong [ref=e185]: Login
+              - text: button.
+            - listitem [ref=e186]:
+              - text: Verify that the user is redirected to the
+              - code [ref=e187]: /secure
+              - text: page.
+            - listitem [ref=e188]: Confirm the success message "You logged into a secure area!" is visible.
+            - listitem [ref=e189]:
+              - text: Verify that a
+              - strong [ref=e190]: Logout
+              - text: button is displayed.
+          - separator [ref=e191]
+          - 'heading "Test Case 2: Invalid Username" [level=3] [ref=e192]'
+          - list [ref=e193]:
+            - listitem [ref=e194]: Launch the browser.
+            - listitem [ref=e195]: Navigate to the login page URL.
+            - listitem [ref=e196]: Verify that the login page is displayed successfully.
+            - listitem [ref=e197]:
+              - text: Enter an incorrect
+              - strong [ref=e198]: Username
+              - text: (e.g.,
+              - code [ref=e199]: wrongUser
+              - text: ).
+            - listitem [ref=e200]:
+              - text: Enter
+              - strong [ref=e201]: Password
+              - text: ":"
+              - code [ref=e202]: SuperSecretPassword!
+              - text: .
+            - listitem [ref=e203]:
+              - text: Click the
+              - strong [ref=e204]: Login
+              - text: button.
+            - listitem [ref=e205]: Verify that an error message "Invalid username." is displayed.
+            - listitem [ref=e206]: Ensure the user remains on the login page.
+          - separator [ref=e207]
+          - 'heading "Test Case 3: Invalid Password" [level=3] [ref=e208]'
+          - list [ref=e209]:
+            - listitem [ref=e210]: Launch the browser.
+            - listitem [ref=e211]: Navigate to the login page URL.
+            - listitem [ref=e212]: Verify that the login page is displayed successfully.
+            - listitem [ref=e213]:
+              - text: Enter
+              - strong [ref=e214]: Username
+              - text: ":"
+              - code [ref=e215]: practice
+              - text: .
+            - listitem [ref=e216]:
+              - text: Enter an incorrect
+              - strong [ref=e217]: Password
+              - text: (e.g.,
+              - code [ref=e218]: WrongPassword
+              - text: ).
+            - listitem [ref=e219]:
+              - text: Click the
+              - strong [ref=e220]: Login
+              - text: button.
+            - listitem [ref=e221]: Verify that an error message "Invalid password." is displayed.
+            - listitem [ref=e222]: Ensure the user remains on the login page.
+    - insertion [ref=e224]:
+      - iframe [ref=e226]:
+        - generic [active] [ref=f5e1]:
+          - generic [ref=f5e7]:
+            - generic [ref=f5e8]:
+              - generic "Jain University" [ref=f5e9]:
+                - link "3+ Decades of Excellence" [ref=f5e11] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CVHEnUP2oaaexH9mS7OsPk6XRiQ2okZuShAGsv5j16hSN5tq_zQEQASCVlJmjAWDl6uMDoAH4rruiAsgBAakCeQMlowpORz6oAwHIA8sEqgSKAk_QTGW2p4ho65_ZMRjid3QTsQyJmEmGpohMStWYv1O3pB1VZFO9GRRKS39UXP2uZ-vDCJcej8_ThHcYeh8XYKVnig4Wv4DAeWTc28ZszH88wHK9BCFm-6F0hPWl7RRGO_UiZONHMjnagMYmPp3tGAv86rwN1clskSMXdAUuUxR4W1C0vOAC49AiomdtF4ZCFaj7KdzUJeGZlLVCAD5d_tCbMY6apRoMqeVlg2_sWNIaRIZh64RdfWrfH7oRp2DM2a4Tzk6uPnDENkWZNIDANYVh7YK4rlLs0WgFc99iF9vwv6bprPsUCR-vqRbAme-eu6hvBSxHYIN-C0gCzppy-HMSQt4JFhueBIDiwATZ_oiwuwWIBYPNo89VgAfw0MTdAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WOfglZrth5MDsQmP5nLfk_Sh04AKAZgLAcgLAaIMCCoGCgTW2rECqg0CSU7IDQHqDRMI6Z-Xmu2HkwMVWQl7Bx2TUjTR8A0CiA4J2BMDiBQH0BUByhYCCgD4FgGAFwGyFw4YASoKMjQwNjMzNTc0M7oXAjgBqhgXCQAAAAAAE8BAEgoyNDA2MzM1NzQzGAGyGAkSAotUGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE&num=1&cid=CAQSsgEA56J1eX8baL_qGrlTMT_fzteG2ujum06VvOB_Vx808mV0UdIuvjFfib70Whwb_y89gI9CSr-2VZnk6Yb0u388rLjwIjiOIx8P02F7SzdSrvfY1uViVSqA5VJI_P8WZRk7z1DgBDbweuvAFmYpEgTLPldZ-UY-RHdGs3nQVkJiQ8vqGkcg0TKb1DgOKNn3cGA8ElwWnHficiqWF73zerCSebk7mT2qXUVCXSaZOYb4_BA3GAE&sig=AOD64_0rezLSz33ZIAJzgQDZpxDaHMBEBw&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.jaincollege.ac.in/puc-admissions/%3Futm_source%3DGoogle%2Bads%26utm_medium%3Dcpc%26utm_campaign%3DPUC-APP%2BLIVE-2026%26utm_id%3D22983272067%26gad_source%3D5%26gad_campaignid%3D22983272067%26gclid%3DEAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE
+                  - text: 3+ Decades
+                  - text: of
+                  - text: Excellence
+              - 'link "Jain PUC Commerce: CA, CS, Finance & More — Applications live for 2026 - Apply Now." [ref=f5e13] [cursor=pointer]':
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CVHEnUP2oaaexH9mS7OsPk6XRiQ2okZuShAGsv5j16hSN5tq_zQEQASCVlJmjAWDl6uMDoAH4rruiAsgBAakCeQMlowpORz6oAwHIA8sEqgSKAk_QTGW2p4ho65_ZMRjid3QTsQyJmEmGpohMStWYv1O3pB1VZFO9GRRKS39UXP2uZ-vDCJcej8_ThHcYeh8XYKVnig4Wv4DAeWTc28ZszH88wHK9BCFm-6F0hPWl7RRGO_UiZONHMjnagMYmPp3tGAv86rwN1clskSMXdAUuUxR4W1C0vOAC49AiomdtF4ZCFaj7KdzUJeGZlLVCAD5d_tCbMY6apRoMqeVlg2_sWNIaRIZh64RdfWrfH7oRp2DM2a4Tzk6uPnDENkWZNIDANYVh7YK4rlLs0WgFc99iF9vwv6bprPsUCR-vqRbAme-eu6hvBSxHYIN-C0gCzppy-HMSQt4JFhueBIDiwATZ_oiwuwWIBYPNo89VgAfw0MTdAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WOfglZrth5MDsQmP5nLfk_Sh04AKAZgLAcgLAaIMCCoGCgTW2rECqg0CSU7IDQHqDRMI6Z-Xmu2HkwMVWQl7Bx2TUjTR8A0CiA4J2BMDiBQH0BUByhYCCgD4FgGAFwGyFw4YASoKMjQwNjMzNTc0M7oXAjgBqhgXCQAAAAAAE8BAEgoyNDA2MzM1NzQzGAGyGAkSAotUGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE&num=1&cid=CAQSsgEA56J1eX8baL_qGrlTMT_fzteG2ujum06VvOB_Vx808mV0UdIuvjFfib70Whwb_y89gI9CSr-2VZnk6Yb0u388rLjwIjiOIx8P02F7SzdSrvfY1uViVSqA5VJI_P8WZRk7z1DgBDbweuvAFmYpEgTLPldZ-UY-RHdGs3nQVkJiQ8vqGkcg0TKb1DgOKNn3cGA8ElwWnHficiqWF73zerCSebk7mT2qXUVCXSaZOYb4_BA3GAE&sig=AOD64_0rezLSz33ZIAJzgQDZpxDaHMBEBw&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.jaincollege.ac.in/puc-admissions/%3Futm_source%3DGoogle%2Bads%26utm_medium%3Dcpc%26utm_campaign%3DPUC-APP%2BLIVE-2026%26utm_id%3D22983272067%26gad_source%3D5%26gad_campaignid%3D22983272067%26gclid%3DEAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE
+                - text: Jain PUC
+                - text: "Commerce: CA,"
+                - text: CS, Finance &
+                - text: More —
+                - text: Applications live
+                - text: for 2026 - Apply
+                - text: Now.
+              - generic "Jain University" [ref=f5e14]:
+                - link "Jain University" [ref=f5e15] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CVHEnUP2oaaexH9mS7OsPk6XRiQ2okZuShAGsv5j16hSN5tq_zQEQASCVlJmjAWDl6uMDoAH4rruiAsgBAakCeQMlowpORz6oAwHIA8sEqgSKAk_QTGW2p4ho65_ZMRjid3QTsQyJmEmGpohMStWYv1O3pB1VZFO9GRRKS39UXP2uZ-vDCJcej8_ThHcYeh8XYKVnig4Wv4DAeWTc28ZszH88wHK9BCFm-6F0hPWl7RRGO_UiZONHMjnagMYmPp3tGAv86rwN1clskSMXdAUuUxR4W1C0vOAC49AiomdtF4ZCFaj7KdzUJeGZlLVCAD5d_tCbMY6apRoMqeVlg2_sWNIaRIZh64RdfWrfH7oRp2DM2a4Tzk6uPnDENkWZNIDANYVh7YK4rlLs0WgFc99iF9vwv6bprPsUCR-vqRbAme-eu6hvBSxHYIN-C0gCzppy-HMSQt4JFhueBIDiwATZ_oiwuwWIBYPNo89VgAfw0MTdAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WOfglZrth5MDsQmP5nLfk_Sh04AKAZgLAcgLAaIMCCoGCgTW2rECqg0CSU7IDQHqDRMI6Z-Xmu2HkwMVWQl7Bx2TUjTR8A0CiA4J2BMDiBQH0BUByhYCCgD4FgGAFwGyFw4YASoKMjQwNjMzNTc0M7oXAjgBqhgXCQAAAAAAE8BAEgoyNDA2MzM1NzQzGAGyGAkSAotUGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE&num=1&cid=CAQSsgEA56J1eX8baL_qGrlTMT_fzteG2ujum06VvOB_Vx808mV0UdIuvjFfib70Whwb_y89gI9CSr-2VZnk6Yb0u388rLjwIjiOIx8P02F7SzdSrvfY1uViVSqA5VJI_P8WZRk7z1DgBDbweuvAFmYpEgTLPldZ-UY-RHdGs3nQVkJiQ8vqGkcg0TKb1DgOKNn3cGA8ElwWnHficiqWF73zerCSebk7mT2qXUVCXSaZOYb4_BA3GAE&sig=AOD64_0rezLSz33ZIAJzgQDZpxDaHMBEBw&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.jaincollege.ac.in/puc-admissions/%3Futm_source%3DGoogle%2Bads%26utm_medium%3Dcpc%26utm_campaign%3DPUC-APP%2BLIVE-2026%26utm_id%3D22983272067%26gad_source%3D5%26gad_campaignid%3D22983272067%26gclid%3DEAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE
+            - link "Apply Now" [ref=f5e18] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CVHEnUP2oaaexH9mS7OsPk6XRiQ2okZuShAGsv5j16hSN5tq_zQEQASCVlJmjAWDl6uMDoAH4rruiAsgBAakCeQMlowpORz6oAwHIA8sEqgSKAk_QTGW2p4ho65_ZMRjid3QTsQyJmEmGpohMStWYv1O3pB1VZFO9GRRKS39UXP2uZ-vDCJcej8_ThHcYeh8XYKVnig4Wv4DAeWTc28ZszH88wHK9BCFm-6F0hPWl7RRGO_UiZONHMjnagMYmPp3tGAv86rwN1clskSMXdAUuUxR4W1C0vOAC49AiomdtF4ZCFaj7KdzUJeGZlLVCAD5d_tCbMY6apRoMqeVlg2_sWNIaRIZh64RdfWrfH7oRp2DM2a4Tzk6uPnDENkWZNIDANYVh7YK4rlLs0WgFc99iF9vwv6bprPsUCR-vqRbAme-eu6hvBSxHYIN-C0gCzppy-HMSQt4JFhueBIDiwATZ_oiwuwWIBYPNo89VgAfw0MTdAagHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WOfglZrth5MDsQmP5nLfk_Sh04AKAZgLAcgLAaIMCCoGCgTW2rECqg0CSU7IDQHqDRMI6Z-Xmu2HkwMVWQl7Bx2TUjTR8A0CiA4J2BMDiBQH0BUByhYCCgD4FgGAFwGyFw4YASoKMjQwNjMzNTc0M7oXAjgBqhgXCQAAAAAAE8BAEgoyNDA2MzM1NzQzGAGyGAkSAotUGAEiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE&num=1&cid=CAQSsgEA56J1eX8baL_qGrlTMT_fzteG2ujum06VvOB_Vx808mV0UdIuvjFfib70Whwb_y89gI9CSr-2VZnk6Yb0u388rLjwIjiOIx8P02F7SzdSrvfY1uViVSqA5VJI_P8WZRk7z1DgBDbweuvAFmYpEgTLPldZ-UY-RHdGs3nQVkJiQ8vqGkcg0TKb1DgOKNn3cGA8ElwWnHficiqWF73zerCSebk7mT2qXUVCXSaZOYb4_BA3GAE&sig=AOD64_0rezLSz33ZIAJzgQDZpxDaHMBEBw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.jaincollege.ac.in/puc-admissions/%3Futm_source%3DGoogle%2Bads%26utm_medium%3Dcpc%26utm_campaign%3DPUC-APP%2BLIVE-2026%26utm_id%3D22983272067%26gad_source%3D5%26gad_campaignid%3D22983272067%26gclid%3DEAIaIQobChMIp5mXmu2HkwMVWQl7Bx2TUjTREAEYASAAEgKNx_D_BwE
+              - generic [ref=f5e21]:
+                - generic [ref=f5e22]: Apply Now
+                - img [ref=f5e23]
+          - img [ref=f5e29]
+          - iframe
+  - insertion [ref=e228]:
+    - generic [ref=e231]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e233]: Discover more
+      - link "Application programming interface" [ref=e234] [cursor=pointer]:
+        - generic "Application programming interface" [ref=e235]
+        - img [ref=e237]
+      - link "UI testing resources" [ref=e239] [cursor=pointer]:
+        - generic "UI testing resources" [ref=e240]
+        - img [ref=e242]
+      - link "Automation testing courses" [ref=e244] [cursor=pointer]:
+        - generic "Automation testing courses" [ref=e245]
+        - img [ref=e247]
+  - contentinfo [ref=e249]:
+    - generic [ref=e254]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e255]
+      - paragraph [ref=e256]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e257] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - img [ref=e259] [cursor=pointer]
+```
