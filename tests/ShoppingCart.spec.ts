@@ -9,6 +9,8 @@
  * 5. Click on the 'shopping cart!' link in the displayed success message (Validate ER-1)
  * 
  */
+import {test,expect} from "../fixtures/authFixtures";
+import { DataProvider } from "../utils/dataProvider";
 
 
 const jsonPath="testdata/searchProduct.json";
@@ -19,17 +21,9 @@ const filePath="../testdata/MOCK_DATA.xlsx";
 
 const excelTestData=DataProvider.gettestDataFromExcel(filePath,'data');
 
-import {test,expect} from "../fixtures/authFixtures";
-import { HomePage } from "../pages/HomePage";
-import { TestConfig } from "../test.config";
-import { SearchResultsPage } from "../pages/SearchResultsPage";
-import { ProductPage } from "../pages/ProductPage";
-import { CheckoutPage } from "../pages/CheckoutPage";
-import { DataProvider } from "../utils/dataProvider";
-
 for(const data of jsonTestData){
 
-    test(`Validate the Items- ${data.product} in shopping cart`, async ({homePage,myAccountPage},use)=>{
+    test(`Validate the Items- ${data.product} in shopping cart`, async ({homePage},use)=>{
 
 
       await homePage.enterProductName(data.product);

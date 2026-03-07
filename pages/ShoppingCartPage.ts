@@ -8,6 +8,7 @@ export class ShoppingCartPage extends BasePage{
     // Locators using CSS selectors
     private readonly lblTotalPrice: Locator;
     private readonly btnCheckout: Locator;
+    private readonly cnfMsg:Locator;
 
     constructor(page: Page) {
         super(page);
@@ -15,6 +16,7 @@ export class ShoppingCartPage extends BasePage{
         // Initialize locators with CSS selectors
         this.lblTotalPrice = page.locator("//*[@id='content']/div[2]/div/table//strong[text()='Total:']//following::td");
         this.btnCheckout = page.locator("a[class='btn btn-primary']");
+        this.cnfMsg=page.locator('.alert-danger');
     }
 
     /**
@@ -35,7 +37,12 @@ export class ShoppingCartPage extends BasePage{
      * @returns Promise<CheckoutPage> - CheckoutPage instance
      */
     async clickOnCheckout(): Promise<CheckoutPage> {
-        await this.btnCheckout.click();
+
+        await Promise.all([
+            this.page.waitForURL('**route=checkout/cart**'),
+            this.btnCheckout.click()
+        ])
+        
         return new CheckoutPage(this.page);
     }
 

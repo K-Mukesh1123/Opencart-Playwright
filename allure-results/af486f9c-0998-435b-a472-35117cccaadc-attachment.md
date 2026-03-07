@@ -1,0 +1,313 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - button "$ Currency " [ref=e7] [cursor=pointer]:
+        - strong [ref=e8]: $
+        - text: Currency
+        - generic [ref=e9]: 
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "" [ref=e13] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=information/contact
+            - generic [ref=e14]: 
+          - text: "123456789"
+        - listitem [ref=e15]:
+          - link " My Account" [ref=e16] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=account/account
+            - generic [ref=e17]: 
+            - text: My Account
+        - listitem [ref=e19]:
+          - link " Wish List (2)" [ref=e20] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=account/wishlist
+            - generic [ref=e21]: 
+            - text: Wish List (2)
+        - listitem [ref=e22]:
+          - link " Shopping Cart" [ref=e23] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=checkout/cart
+            - generic [ref=e24]: 
+            - text: Shopping Cart
+        - listitem [ref=e25]:
+          - link " Checkout" [ref=e26] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=checkout/checkout
+            - generic [ref=e27]: 
+            - text: Checkout
+  - banner [ref=e28]:
+    - generic [ref=e30]:
+      - heading "Qafox.com" [level=1] [ref=e33]:
+        - link "Qafox.com" [ref=e34] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=common/home
+      - generic [ref=e36]:
+        - textbox "Search" [ref=e37]
+        - button "" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: 
+      - generic [ref=e42]:
+        - button " 5 item(s) - $947.19" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: 
+          - text: 5 item(s) - $947.19
+        - text:       
+  - navigation [ref=e46]:
+    - generic: 
+    - list [ref=e48]:
+      - listitem [ref=e49]:
+        - link "Desktops" [ref=e50] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=20
+      - listitem [ref=e51]:
+        - link "Laptops & Notebooks" [ref=e52] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=18
+      - listitem [ref=e53]:
+        - link "Components" [ref=e54] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=25
+      - listitem [ref=e55]:
+        - link "Tablets" [ref=e56] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=57
+      - listitem [ref=e57]:
+        - link "Software" [ref=e58] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=17
+      - listitem [ref=e59]:
+        - link "Phones & PDAs" [ref=e60] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=24
+      - listitem [ref=e61]:
+        - link "Cameras" [ref=e62] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=33
+      - listitem [ref=e63]:
+        - link "MP3 Players" [ref=e64] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=34
+  - generic [ref=e65]:
+    - list [ref=e66]:
+      - listitem [ref=e67]:
+        - link "" [ref=e68] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=common/home
+          - generic [ref=e69]: 
+      - listitem [ref=e70]:
+        - link "Shopping Cart" [ref=e71] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=checkout/cart
+    - generic [ref=e72]:
+      - generic [ref=e73]: 
+      - text: Products marked with *** are not available in the desired quantity or not in stock!
+      - button "×" [ref=e74] [cursor=pointer]
+    - generic [ref=e76]:
+      - heading "Shopping Cart (20.28kg)" [level=1] [ref=e77]
+      - table [ref=e80]:
+        - rowgroup [ref=e81]:
+          - row "Image Product Name Model Quantity Unit Price Total" [ref=e82]:
+            - cell "Image" [ref=e83]
+            - cell "Product Name" [ref=e84]
+            - cell "Model" [ref=e85]
+            - cell "Quantity" [ref=e86]
+            - cell "Unit Price" [ref=e87]
+            - cell "Total" [ref=e88]
+        - rowgroup [ref=e89]:
+          - 'row "HTC Touch HD HTC Touch HD *** Reward Points: 400 Product 1 1   $122.00 $122.00" [ref=e90]':
+            - cell "HTC Touch HD" [ref=e91]:
+              - link "HTC Touch HD" [ref=e92] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=28
+                - img "HTC Touch HD" [ref=e93]
+            - 'cell "HTC Touch HD *** Reward Points: 400" [ref=e94]':
+              - link "HTC Touch HD" [ref=e95] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=28
+              - text: "***"
+              - text: "Reward Points: 400"
+            - cell "Product 1" [ref=e96]
+            - cell "1  " [ref=e97]:
+              - generic [ref=e98]:
+                - textbox [ref=e99]: "1"
+                - generic [ref=e100]:
+                  - button "" [ref=e101] [cursor=pointer]:
+                    - generic [ref=e102]: 
+                  - button "" [ref=e103] [cursor=pointer]:
+                    - generic [ref=e104]: 
+            - cell "$122.00" [ref=e105]
+            - cell "$122.00" [ref=e106]
+          - row "Palm Treo Pro Palm Treo Pro *** Product 2 1   $337.99 $337.99" [ref=e107]:
+            - cell "Palm Treo Pro" [ref=e108]:
+              - link "Palm Treo Pro" [ref=e109] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=29
+                - img "Palm Treo Pro" [ref=e110]
+            - cell "Palm Treo Pro ***" [ref=e111]:
+              - link "Palm Treo Pro" [ref=e112] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=29
+              - text: "***"
+            - cell "Product 2" [ref=e113]
+            - cell "1  " [ref=e114]:
+              - generic [ref=e115]:
+                - textbox [ref=e116]: "1"
+                - generic [ref=e117]:
+                  - button "" [ref=e118] [cursor=pointer]:
+                    - generic [ref=e119]: 
+                  - button "" [ref=e120] [cursor=pointer]:
+                    - generic [ref=e121]: 
+            - cell "$337.99" [ref=e122]
+            - cell "$337.99" [ref=e123]
+          - row "Samsung SyncMaster 941BW Samsung SyncMaster 941BW *** Product 6 1   $242.00 $242.00" [ref=e124]:
+            - cell "Samsung SyncMaster 941BW" [ref=e125]:
+              - link "Samsung SyncMaster 941BW" [ref=e126] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=33
+                - img "Samsung SyncMaster 941BW" [ref=e127]
+            - cell "Samsung SyncMaster 941BW ***" [ref=e128]:
+              - link "Samsung SyncMaster 941BW" [ref=e129] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=33
+              - text: "***"
+            - cell "Product 6" [ref=e130]
+            - cell "1  " [ref=e131]:
+              - generic [ref=e132]:
+                - textbox [ref=e133]: "1"
+                - generic [ref=e134]:
+                  - button "" [ref=e135] [cursor=pointer]:
+                    - generic [ref=e136]: 
+                  - button "" [ref=e137] [cursor=pointer]:
+                    - generic [ref=e138]: 
+            - cell "$242.00" [ref=e139]
+            - cell "$242.00" [ref=e140]
+          - row "iPhone iPhone *** product 11 1   $123.20 $123.20" [ref=e141]:
+            - cell "iPhone" [ref=e142]:
+              - link "iPhone" [ref=e143] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=40
+                - img "iPhone" [ref=e144]
+            - cell "iPhone ***" [ref=e145]:
+              - link "iPhone" [ref=e146] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=40
+              - text: "***"
+            - cell "product 11" [ref=e147]
+            - cell "1  " [ref=e148]:
+              - generic [ref=e149]:
+                - textbox [ref=e150]: "1"
+                - generic [ref=e151]:
+                  - button "" [ref=e152] [cursor=pointer]:
+                    - generic [ref=e153]: 
+                  - button "" [ref=e154] [cursor=pointer]:
+                    - generic [ref=e155]: 
+            - cell "$123.20" [ref=e156]
+            - cell "$123.20" [ref=e157]
+          - row "iMac iMac *** Product 14 1   $122.00 $122.00" [ref=e158]:
+            - cell "iMac" [ref=e159]:
+              - link "iMac" [ref=e160] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=41
+                - img "iMac" [ref=e161]
+            - cell "iMac ***" [ref=e162]:
+              - link "iMac" [ref=e163] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=41
+              - text: "***"
+            - cell "Product 14" [ref=e164]
+            - cell "1  " [ref=e165]:
+              - generic [ref=e166]:
+                - textbox [ref=e167]: "1"
+                - generic [ref=e168]:
+                  - button "" [ref=e169] [cursor=pointer]:
+                    - generic [ref=e170]: 
+                  - button "" [ref=e171] [cursor=pointer]:
+                    - generic [ref=e172]: 
+            - cell "$122.00" [ref=e173]
+            - cell "$122.00" [ref=e174]
+      - heading "What would you like to do next?" [level=2] [ref=e175]
+      - paragraph [ref=e176]: Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.
+      - generic [ref=e177]:
+        - heading "Use Coupon Code " [level=4] [ref=e180]:
+          - link "Use Coupon Code " [ref=e181] [cursor=pointer]:
+            - /url: "#collapse-coupon"
+            - text: Use Coupon Code
+            - generic [ref=e182]: 
+        - generic [ref=e183]:
+          - heading "Estimate Shipping & Taxes " [level=4] [ref=e185]:
+            - link "Estimate Shipping & Taxes " [ref=e186] [cursor=pointer]:
+              - /url: "#collapse-shipping"
+              - text: Estimate Shipping & Taxes
+              - generic [ref=e187]: 
+          - text: "* * *"
+        - heading "Use Gift Certificate " [level=4] [ref=e190]:
+          - link "Use Gift Certificate " [ref=e191] [cursor=pointer]:
+            - /url: "#collapse-voucher"
+            - text: Use Gift Certificate
+            - generic [ref=e192]: 
+      - table [ref=e195]:
+        - rowgroup [ref=e196]:
+          - 'row "Sub-Total: $780.99" [ref=e197]':
+            - cell "Sub-Total:" [ref=e198]:
+              - strong [ref=e199]: "Sub-Total:"
+            - cell "$780.99" [ref=e200]
+          - 'row "Eco Tax (-2.00): $10.00" [ref=e201]':
+            - cell "Eco Tax (-2.00):" [ref=e202]:
+              - strong [ref=e203]: "Eco Tax (-2.00):"
+            - cell "$10.00" [ref=e204]
+          - 'row "VAT (20%): $156.20" [ref=e205]':
+            - cell "VAT (20%):" [ref=e206]:
+              - strong [ref=e207]: "VAT (20%):"
+            - cell "$156.20" [ref=e208]
+          - 'row "Total: $947.19" [ref=e209]':
+            - cell "Total:" [ref=e210]:
+              - strong [ref=e211]: "Total:"
+            - cell "$947.19" [ref=e212]
+      - generic [ref=e213]:
+        - link "Continue Shopping" [ref=e215] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=common/home
+        - link "Checkout" [ref=e217] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=checkout/checkout
+  - contentinfo [ref=e218]:
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - heading "Information" [level=5] [ref=e222]
+          - list [ref=e223]:
+            - listitem [ref=e224]:
+              - link "About Us" [ref=e225] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4
+            - listitem [ref=e226]:
+              - link "Delivery Information" [ref=e227] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6
+            - listitem [ref=e228]:
+              - link "Privacy Policy" [ref=e229] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3
+            - listitem [ref=e230]:
+              - link "Terms & Conditions" [ref=e231] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5
+        - generic [ref=e232]:
+          - heading "Customer Service" [level=5] [ref=e233]
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "Contact Us" [ref=e236] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/contact
+            - listitem [ref=e237]:
+              - link "Returns" [ref=e238] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/return/add
+            - listitem [ref=e239]:
+              - link "Site Map" [ref=e240] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/sitemap
+        - generic [ref=e241]:
+          - heading "Extras" [level=5] [ref=e242]
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link "Brands" [ref=e245] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/manufacturer
+            - listitem [ref=e246]:
+              - link "Gift Certificates" [ref=e247] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/voucher
+            - listitem [ref=e248]:
+              - link "Affiliate" [ref=e249] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=affiliate/login
+            - listitem [ref=e250]:
+              - link "Specials" [ref=e251] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/special
+        - generic [ref=e252]:
+          - heading "My Account" [level=5] [ref=e253]
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "My Account" [ref=e256] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/account
+            - listitem [ref=e257]:
+              - link "Order History" [ref=e258] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/order
+            - listitem [ref=e259]:
+              - link "Wish List" [ref=e260] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/wishlist
+            - listitem [ref=e261]:
+              - link "Newsletter" [ref=e262] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/newsletter
+      - separator [ref=e263]
+      - paragraph [ref=e264]:
+        - text: Powered By
+        - link "OpenCart" [ref=e265] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: Qafox.com © 2026
+```

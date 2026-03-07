@@ -29,11 +29,13 @@ export const test=base.extend<AuthFixtures>({
 
         await page.context().storageState({ path: 'auth/user.json' });
         await use(updatedHomePage);
+        
     },
 
     myAccountPage:async ({page},use)=>{
         const myAccountPage = new MyAccountPage(page); 
         await use(myAccountPage);
+        
      }
     
 
