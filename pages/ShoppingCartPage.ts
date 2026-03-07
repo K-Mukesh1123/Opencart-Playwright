@@ -1,15 +1,16 @@
 import { Page, Locator } from '@playwright/test';
 import { CheckoutPage } from './CheckoutPage'; // Import CheckoutPage if needed
+import { Base } from '../utils/CommonFunctions';
 
-export class ShoppingCartPage {
-    private readonly page: Page;
+export class ShoppingCartPage extends Base{
+    
     
     // Locators using CSS selectors
     private readonly lblTotalPrice: Locator;
     private readonly btnCheckout: Locator;
 
     constructor(page: Page) {
-        this.page = page;
+        super(page);
         
         // Initialize locators with CSS selectors
         this.lblTotalPrice = page.locator("//*[@id='content']/div[2]/div/table//strong[text()='Total:']//following::td");
@@ -49,4 +50,6 @@ export class ShoppingCartPage {
             return false;
         }
     }
+
+    
 }

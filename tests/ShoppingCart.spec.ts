@@ -14,11 +14,11 @@
 const jsonPath="testdata/searchProduct.json";
 const jsonTestData=DataProvider.getTestDataFromJson(jsonPath);
 
-/*
+
 const filePath="../testdata/MOCK_DATA.xlsx";
 
 const excelTestData=DataProvider.gettestDataFromExcel(filePath,'data');
-*/
+
 import {test,expect} from "../fixtures/authFixtures";
 import { HomePage } from "../pages/HomePage";
 import { TestConfig } from "../test.config";
@@ -39,8 +39,25 @@ for(const data of jsonTestData){
       await expect(cnfMsg).toBeVisible();      
       const ShoppingCartPage=await productPage.clickShoppingCart();        
 
+    });
+
+    test.only(`Validate navigating to 'Shopping Cart' page from the 'Shopping Cart' header option for ${data.product}`, async({homePage,myAccountPage},use)=>{
+
+      await homePage.enterProductName(data.product);
+      const searchResultsPage=await homePage.clickSearch();
+      expect (await searchResultsPage.getPageTitle()).toContain(`Search - ${data.product}`);
+      await searchResultsPage.ClickOnAddToCart();
+      await searchResultsPage.isConfirmationMessageVisible();
+      const shoppingCartPage=await searchResultsPage.clickOnShoppingCartLinkInCnfMsg();
+
+      expect(await shoppingCartPage.getPageTitle()).toContain("Shopping Cart");
+
+
     })
-}
+
+};
+
+
 
 
 
