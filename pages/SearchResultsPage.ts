@@ -1,9 +1,9 @@
 import { Page, Locator } from '@playwright/test';
 import { ProductPage } from './ProductPage'; // Import ProductPage if needed
 import { ShoppingCartPage } from './ShoppingCartPage';
-import { Base } from '../utils/CommonFunctions';
+import { BasePage} from '../utils/CommonFunctions';
 
-export class SearchResultsPage extends Base {
+export class SearchResultsPage extends BasePage{
 
 
     // Locators using CSS selectors
