@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "OCSESSID",
-      "value": "de6af1295172203bdaabc760e6",
+      "value": "34eba118902b5c4e374496ef41",
       "domain": "tutorialsninja.com",
       "path": "/",
       "expires": -1,
@@ -15,7 +15,7 @@
       "value": "en-gb",
       "domain": ".tutorialsninja.com",
       "path": "/",
-      "expires": 1775495222.905625,
+      "expires": 1775668898.796116,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -25,7 +25,7 @@
       "value": "USD",
       "domain": ".tutorialsninja.com",
       "path": "/",
-      "expires": 1775495222.905724,
+      "expires": 1775668898.796157,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"

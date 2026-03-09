@@ -1,5 +1,6 @@
 import {Page,expect, Locator} from '@playwright/test';
 import { SearchResultsPage } from './SearchResultsPage';
+import { MyAccountPage } from './MyAccountPage';
 
 export class HomePage {
 
@@ -10,6 +11,7 @@ private readonly linkLogin: Locator;
 private readonly lnkRegister: Locator;
 private readonly txtSearchbox: Locator;
 private readonly btnSearch: Locator;
+private readonly dropDwnBtnMyAccount:Locator;
 
     //constructors:
 
@@ -20,6 +22,7 @@ constructor(page:Page){
     this.linkLogin=page.getByText('Login', { exact: true });
     this.btnSearch=page.locator("#search button[type='button']");
     this.txtSearchbox=page.getByPlaceholder('Search');
+    this.dropDwnBtnMyAccount=page.locator('ul.dropdown-menu li a').filter({ hasText: 'My Account' })
     
 }
 
@@ -92,6 +95,17 @@ async clickSearch(){
         console.log(`Exception occured whle clicking 'Search': ${error}`);
         throw error;
     }
+}
+
+async selectMyAccount(){
+    try{
+        await this.dropDwnBtnMyAccount.click();
+        return new MyAccountPage(this.page)
+    }catch(error){
+        console.log(`Exception occured while Clicking 'MyAccount' Dropdown option:${error}`);
+        throw error;
+    }
+
 }
 
 

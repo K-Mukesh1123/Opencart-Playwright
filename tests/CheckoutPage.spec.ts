@@ -1,5 +1,5 @@
 import { test, expect } from '../fixtures/authFixtures';
-import { BasePage } from '../utils/CommonFunctions';
+import { BasePage } from '../utils/BasePage';
 
 const testData = BasePage.getTestData();
 

@@ -1,7 +1,7 @@
 import { Page, Locator } from '@playwright/test';
 import { ProductPage } from './ProductPage'; // Import ProductPage if needed
 import { ShoppingCartPage } from './ShoppingCartPage';
-import { BasePage} from '../utils/CommonFunctions';
+import { BasePage} from '../utils/BasePage';
 
 export class SearchResultsPage extends BasePage{
 

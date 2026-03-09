@@ -1,6 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 import { CheckoutPage } from './CheckoutPage'; // Import CheckoutPage if needed
-import { BasePage} from '../utils/CommonFunctions';
+import { BasePage} from '../utils/BasePage';
 
 export class ShoppingCartPage extends BasePage{
     
